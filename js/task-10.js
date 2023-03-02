@@ -18,16 +18,16 @@ function createBoxes(amount) {
     boxesEl.appendChild(divEl);
     console.log(boxesEl);
   }
-};
+}
 
 function destroyBoxes() {
   boxesEl.innerHTML = '';
-};
+}
 
 btnDataCreateEl.addEventListener('click', () => {
-    const amount = Number(inputEl.value);
-    console.log(amount);
-    createBoxes(amount);
+  const amount = Number(inputEl.value);
+  console.log(amount);
+  createBoxes(amount);
 });
 
 btnDataDestroyEl.addEventListener('click', () => {

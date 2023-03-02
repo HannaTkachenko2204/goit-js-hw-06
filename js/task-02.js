@@ -20,8 +20,3 @@ const arrOfItem = ingredients.map(ingredient => {
 });
 
 listEl.append(...arrOfItem);
-
-
-
-
-

@@ -8,8 +8,8 @@ const changeColorEl = document.querySelector('.change-color');
 const colorEl = document.querySelector('.color');
 
 changeColorEl.addEventListener('click', () => {
-    const nameColor = getRandomHexColor();
-    document.body.style.backgroundColor = nameColor;
-    colorEl.textContent = nameColor;
-    console.log(nameColor);
+  const nameColor = getRandomHexColor();
+  document.body.style.backgroundColor = nameColor;
+  colorEl.textContent = nameColor;
+  console.log(nameColor);
 });

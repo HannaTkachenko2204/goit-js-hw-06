@@ -8,10 +8,12 @@ loginFormlEl.addEventListener('submit', event => {
 
   if (!email.value || !password.value) {
     alert('All fields must be filled!');
+  } else {
+    console.log({
+      [email.name]: email.value,
+      [password.name]: password.value,
+    });
   }
-  console.log({
-    [email.name]: email.value,
-    [password.name]: password.value,
-  });
+
   event.target.reset();
 });
